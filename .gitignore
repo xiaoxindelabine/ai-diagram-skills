@@ -1,0 +1,27 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / rendering tools
+node_modules/
+.npm/
+
+# Claude/local state that should not be published
+settings.local.json
+projects/
+plans/
+memory/
+tool-results/
+
+# Generated diagrams
+*.png
+*.pdf
+*.svg
